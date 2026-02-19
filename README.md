@@ -1,9 +1,9 @@
 <h1>Lab Assignment 2: Layout Components</h1>
-<h2>
+<h3>
    In this lab assignment, we are instructed to extract the components written within a provided App.jsx file 
-   into seperate component files; titled ToDoList.tsx and ToDoForm.tsx. We then must export these components
+   into two seperate component files; titled ToDoList.tsx and ToDoForm.tsx. We then must export these components
    using the Default Export and render them within an index.tsx file. Aside from component rendering, this application has no functionality.
-</h2>
+</h3>
 <h2>Instructions</h2>
 <h3>Part 1: Hard Code ToDo List and Form</h3>
 <li>In your project directory, open the index.tsx file.</li>
