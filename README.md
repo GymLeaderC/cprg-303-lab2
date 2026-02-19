@@ -19,11 +19,3 @@
 <h3>Part 3: Import Separate Components</h3>
 <li>In index.tsx, import the ToDoList and ToDoForm components.</li>
 <li>Replace the hard-coded ToDo list and form sections with the components.</li>
-<h2>Submission Guidelines</h2>
-<h3>GitHub</h3>
-<li>Create a new public GitHub repository to host your code.</li>
-<li>Push all your assignment files (except the "node_modules" folder) to the GitHub repository.</li>
-<h3>D2L Submission</h3>
-<li>Compress all the files and folders for your assignment (except the "node_modules" folder) into a single ZIP file.</li>
-<li>Upload the ZIP file to the appropriate assignment drop-box on D2L.</li>
-<li>Include the link to your GitHub repository in the comments area.</li>
