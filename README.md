@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<h1>Lab Assignment 2: Layout Components</h1>
+<h2>
+   In this lab assignment, we are instructed to extract the components written within a provided App.jsx file 
+   into seperate component files; titled ToDoList.tsx and ToDoForm.tsx. We then must export these components
+   using the Default Export and render them within an index.tsx file. Aside from component rendering, this application has no functionality.
+</h2>
+<h2>Instructions</h2>
+<h3>Part 1: Hard Code ToDo List and Form</h3>
+<li>In your project directory, open the index.tsx file.</li>
+<li>Inside the App component, hard code the ToDo list items and the form to add tasks. The code should resemble the attached App.tsx file.</li>
+<h3>Part 2: Move Into Separate Files</h3>
+<li>Create a new file named ToDoList.tsx in the project directory.</li>
+<li>Copy the ScrollView containing the tasks from App.tsx and paste it into the ToDoList.tsx file.</li>
+<li>Import the necessary components and styles into ToDoList.tsx.</li>
+<h3>ToDoForm.jsx:</h3>
+<li>Create a new file named ToDoForm.tsx in the project directory.</li>
+<li>Copy the View containing the input field and button from index.tsx and paste it into the ToDoForm.tsx file.</li>
+<li>Import the necessary components and styles into ToDoForm.jsx.</li>
+<h3>Part 3: Import Separate Components</h3>
+<li>In index.tsx, import the ToDoList and ToDoForm components.</li>
+<li>Replace the hard-coded ToDo list and form sections with the components.</li>
+<h2>Submission Guidelines</h2>
+<h3>GitHub</h3>
+<li>Create a new public GitHub repository to host your code.</li>
+<li>Push all your assignment files (except the "node_modules" folder) to the GitHub repository.</li>
+<h3>D2L Submission</h3>
+<li>Compress all the files and folders for your assignment (except the "node_modules" folder) into a single ZIP file.</li>
+<li>Upload the ZIP file to the appropriate assignment drop-box on D2L.</li>
+<li>Include the link to your GitHub repository in the comments area.</li>
